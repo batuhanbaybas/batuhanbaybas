@@ -8,6 +8,7 @@
 - 🌱 I’m currently learning 
 <img width="20px" height="20px"  src="https://cdn.iconscout.com/icon/free/png-64/react-3-1175109.png">
 </div>
+
 ## Contact with me
 
 <a href="https://www.linkedin.com/in/batuhan-bayba%C5%9F-213007131/"><img   width="30px" height="30px" src="https://cdn.iconscout.com/icon/free/png-64/linkedin-189-721962.png"></a>
