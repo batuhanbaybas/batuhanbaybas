@@ -24,5 +24,7 @@
 
 ### My Tools
 
+<div style="justify">
 <img  width="30px" height="30px" src="https://cdn.iconscout.com/icon/free/png-64/visual-studio-code-3251603-2724650.png">
 <img  width="30px" height="30px" src="https://cdn.iconscout.com/icon/free/png-64/discord-1863643-1581238.png">
+</div>
