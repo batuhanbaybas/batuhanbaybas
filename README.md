@@ -1,14 +1,14 @@
 # Hi there 👋
 
-<<<<<<< HEAD
+
 **I'm Batuhan** I'm Self-Taught Frontend Developer
 =======
 
 **I'm Batuhan** ✨ I'm  Self-Tought Frontend Developer✨ 
->>>>>>> cb57ce7ef06916d57e75769c605232a100c6057b
 
 
-<<<<<<< HEAD
+
+
 - 🌱 I’m currently learning <img width="20px" height="20px"  src="https://cdn.iconscout.com/icon/free/png-64/react-3-1175109.png">
 
 ## Contact with me
@@ -30,6 +30,5 @@
 
 <img  width="20px" height="20px" src="https://cdn.iconscout.com/icon/free/png-64/visual-studio-code-3251603-2724650.png">
 <img  width="20px" height="20px" src="https://cdn.iconscout.com/icon/free/png-64/discord-1863643-1581238.png">
-=======
->>>>>>> cb57ce7ef06916d57e75769c605232a100c6057b
+
 
