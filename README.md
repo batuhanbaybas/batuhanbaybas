@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-**I'm Batuhan** ı'm ✨ Self-Tought Frontend Developer✨ 
+**I'm Batuhan** ✨ I'm  Self-Tought Frontend Developer✨ 
 
 
 
