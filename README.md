@@ -5,8 +5,8 @@
 **I'm Batuhan**
 
 <div style="justify">
-- 🌱 I’m currently learning 
-<img width="20px" height="20px"  src="https://cdn.iconscout.com/icon/free/png-64/react-3-1175109.png">
+- 🌱 I’m currently learning React/React-Native
+
 </div>
 
 ## Contact with me
