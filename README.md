@@ -1,7 +1,5 @@
 # Hi there 👋
 
-# **I'm Batuhan** I'm Self-Taught Frontend Developer
-
 **I'm Batuhan**
 
 <div style="justify">
