@@ -3,7 +3,7 @@
 **I'm Batuhan**
 
 <div style="justify">
-- 🌱 I’m currently learning React/React-Native
+- 🌱 I’m currently learning JavaScript
 
 </div>
 
