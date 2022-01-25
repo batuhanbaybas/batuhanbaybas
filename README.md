@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Batuhan</h1>
 <h3 align="center">I'm JavaScript Developer</h3>
+<br/>
+<h5 align="center">I'm also master of googling </h5> 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
