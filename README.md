@@ -21,7 +21,8 @@
 <img  width="30px" height="30px" src="https://cdn.iconscout.com/icon/free/png-64/javascript-1-225993.png">
 <img  width="30px" height="30px" src="https://cdn.iconscout.com/icon/free/png-64/react-3-1175109.png">
 <img  width="30px" height="30px" src="https://cdn.iconscout.com/icon/free/png-64/redux-3521674-2945118.png">
-<img  width="30px" height="30px" src="https://cdn.iconscout.com/icon/free/png-64/bootstrap-7-1175254.png"></div>
+<img  width="30px" height="30px" src="https://cdn.iconscout.com/icon/free/png-64/bootstrap-7-1175254.png">
+</div>
 
 ### My Tools
 
