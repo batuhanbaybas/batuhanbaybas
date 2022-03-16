@@ -3,7 +3,7 @@
 
 
 <p align="center">
- I'm Currently Learning C# for Game Development
+FrontEnd Developer
  
 <h3 align="center">Connect with me:</h3>
 
