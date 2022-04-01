@@ -2,7 +2,7 @@
 
 
 
-<h2 align="center"> I'm FrontEnd Developer
+<h2 align="center"> I'm FullStack Developer
  
 <h3 align="center">Connect with me:</h3>
 
