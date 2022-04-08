@@ -2,7 +2,7 @@
 
 
 
-<h2 align="center"> I'm Trying to something new this place going to update soon
+<h2 align="center"> I'm Trying to something new this place is going to update soon
  
 
 
