@@ -4,5 +4,5 @@
 
 <h2 align="center"> I'm Trying to something new this place going to update soon
  
-<h3 align="center">Connect with me:</h3>
+
 
