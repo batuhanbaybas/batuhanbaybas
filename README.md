@@ -1,42 +1,50 @@
-<h1 align="center">Hi 👋, I'm Batuhan</h1>
+<img src="https://media.giphy.com/media/FPbnShq1h1IS5FQyPD/giphy.gif" align="right" width="400" height="250">
+
+### Hi there, I'm Batuhan.
+
+## React Developer 
+
+
+### Reach out to me
+
+[<img  width="22" src="https://unpkg.com/simple-icons@v4/icons/medium.svg" align="left" />][medium]
+[<img  width="22" src="https://unpkg.com/simple-icons@v4/icons/linkedin.svg" align="left" />][linkedin]
+
+<br />
+<br />
+
+### Tech I use
+
+<img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="25" height="25" />
+<img align="left" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" width="25" height="25" />
+<img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="25" height="25" />
+<img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" width="25" height="25" />
+<img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" width="25" height="25" />
+<img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" width="25" height="25" />
+<img align="left" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg "width="25" height="25" />
+
+<br />
 
 
 
-<h2 align="center"> I'm Frontend Developer
- 
-<h3 align="center">Connect with me:</h3>
+## Latest Blog Posts
 
+<!-- BLOG-POST-LIST:START -->
+- [BOM (Browser Object Model DOM (Document Object Model))](https://medium.com/@b.baybas/dom-document-object-model-ve-bom-browser-object-model-9509a6142f54)
+- [Nedir Bu State Management](https://medium.com/@b.baybas/nedir-bu-state-manegement-2e12f6e3bc5a)
+<!-- BLOG-POST-LIST:END -->
 
-<p align="center">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/batuhan-bayba%c5%9f-213007131/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/batuhan-bayba%c5%9f-213007131/" height="30" width="40" /></a>
-</p>
+<br />
 
-<h3 align="center">Languages and Tools:</h3>
-<h4 align="center">Frontend Techs</h4>
-<p align="center"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a><a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
- <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> 
- <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a>
- <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> </p>
- 
-<h3 align="center">Backend Techs</h3>
-<p align="center"> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
+<details>
+<summary> Github Stats</summary>
+<img src="https://github-readme-stats.vercel.app/api?username=batuhanbaybas&theme=radical" >
+</details>
 
-<h4 align="center">Mobile Techs</h4>
-<p align="center"><a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> 
-<h4 align="center">Tools</h4>
-<p align="center">
- <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> 
- 
- <h3 align="center">Databases</h3>
-<p align="center"> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> </p>
+<details>
+<summary>  Most Used Languages</summary>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=batuhanbaybas&layout=compact" >
+</details>
 
- 
- 
- 
-<h4 align="center">System</h4>
-<p align="center">
- <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>   
-
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=batuhanbaybas&show_icons=true&locale=en" alt="batuhanbaybas" /></p>
-
-<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=batuhanbaybas&show_icons=true&locale=en&layout=compact" alt="batuhanbaybas" /></p>
+[medium]: https://medium.com/@b.baybas
+[linkedin]: https://www.linkedin.com/in/batuhan-baybas/
