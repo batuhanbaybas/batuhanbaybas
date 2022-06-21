@@ -1,6 +1,7 @@
 name: Latest blog post workflow
 on:
   schedule:
+    # Runs every hour
     - cron: '0 * * * *'
 jobs:
   update-readme-with-blog:
@@ -10,5 +11,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          max_post_count: "4"
-          feed_list: "https://medium.com/feed/@b.baybas"
+      feed_list: "https://medium.com/feed/@b.baybas"
