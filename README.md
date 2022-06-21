@@ -2,7 +2,7 @@
 
 ### Hi there, I'm Batuhan.
 
-## React Developer 
+## Frontend/React Developer 
 
 
 ### Reach out to me
