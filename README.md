@@ -9,7 +9,7 @@
 
 [<img  width="22" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" align="left" />][medium]
 [<img  width="22" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" align="left" />][linkedin]
-[<img  width="22" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" align="left" />][stack-overflow]
+
 
 <br />
 <br />
@@ -51,4 +51,3 @@
 
 [medium]: https://medium.com/@b.baybas
 [linkedin]: https://www.linkedin.com/in/batuhan-baybas/
-[stack-overflow]:https://stackoverflow.com/users/https://stackoverflow.com/users/14805835/batuhan-bayba%c5%9f
