@@ -6,7 +6,13 @@ import { Container } from "@/components/container";
 import { Mark } from "@/components/mark";
 import { site } from "@/lib/site";
 
-const desktopNav = [
+type NavItem = {
+  href: string;
+  label: string;
+  external?: boolean;
+};
+
+const desktopNav: NavItem[] = [
   ...site.sections.map((section) => ({
     href: `#${section.id}`,
     label: section.label,
