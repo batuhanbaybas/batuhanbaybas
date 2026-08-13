@@ -8,7 +8,16 @@ import { site, type SiteSection } from "@/lib/site";
 
 const PLATE_H = 0.11;
 const GAP = 0.26;
-const COLORS = ["#1c1c1c", "#3a3a3a", "#8f8f8f", "#ececec"];
+
+const FINISH: Record<
+  string,
+  { color: string; metalness: number; roughness: number }
+> = {
+  about: { color: "#f2f2f2", metalness: 0.18, roughness: 0.36 },
+  tools: { color: "#a8a8a8", metalness: 0.22, roughness: 0.34 },
+  "open-source": { color: "#737373", metalness: 0.24, roughness: 0.34 },
+  work: { color: "#4a4a4a", metalness: 0.26, roughness: 0.32 },
+};
 
 const layers = [...site.sections].reverse();
 
@@ -45,6 +54,7 @@ function Plate({
 }) {
   const group = useRef<THREE.Group>(null);
   const [hovered, setHovered] = useState(false);
+  const finish = FINISH[layer.id];
   const isActive = active === layer.id;
   const baseY = index * (PLATE_H + GAP);
   const width = 1.05 - index * 0.05;
@@ -86,9 +96,9 @@ function Plate({
         smoothness={3}
       >
         <meshStandardMaterial
-          color={isActive ? "#f2f2f2" : COLORS[index]}
-          metalness={0.06}
-          roughness={0.38}
+          color={finish.color}
+          metalness={isActive ? finish.metalness + 0.12 : finish.metalness}
+          roughness={isActive ? Math.max(finish.roughness - 0.1, 0.18) : finish.roughness}
         />
       </RoundedBox>
       {isActive ? (
@@ -199,9 +209,9 @@ export default function Toolchain({
       }}
       onPointerMissed={() => onActiveChange(null)}
     >
-      <ambientLight intensity={0.6} />
-      <directionalLight color="#ffffff" intensity={1.65} position={[3, 6, 4]} />
-      <directionalLight color="#9a9a9a" intensity={0.28} position={[-3, 1, -2]} />
+      <ambientLight intensity={0.58} />
+      <directionalLight color="#f2f2f2" intensity={1.55} position={[3, 6, 4]} />
+      <directionalLight color="#8a8a8a" intensity={0.34} position={[-3, 1, -2]} />
       <System
         active={active}
         onActiveChange={onActiveChange}
