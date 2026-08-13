@@ -58,14 +58,14 @@ export const site = {
       hint: "The stack I work with",
     },
     {
-      id: "work",
-      label: "Work",
-      hint: "Selected projects",
-    },
-    {
       id: "open-source",
       label: "Open source",
       hint: "Libraries and community",
+    },
+    {
+      id: "work",
+      label: "Projects",
+      hint: "Selected work",
     },
   ] satisfies SiteSection[],
   projects: [

@@ -1,6 +1,6 @@
 "use client";
 
-import { ContactShadows, RoundedBox, useCursor } from "@react-three/drei";
+import { ContactShadows, Html, RoundedBox, useCursor } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useEffect, useRef, useState, type RefObject } from "react";
 import * as THREE from "three";
@@ -10,7 +10,7 @@ const PLATE_H = 0.11;
 const GAP = 0.26;
 const COLORS = ["#1c1c1c", "#3a3a3a", "#8f8f8f", "#ececec"];
 
-const layers = site.sections;
+const layers = [...site.sections].reverse();
 
 function usePrefersReducedMotion() {
   const reduced = useRef(false);
@@ -91,6 +91,27 @@ function Plate({
           roughness={0.38}
         />
       </RoundedBox>
+      {isActive ? (
+        <Html
+          center
+          occlude={false}
+          pointerEvents="none"
+          position={[0, 0.28, 0]}
+          zIndexRange={[50, 0]}
+        >
+          <div className="-translate-y-2 flex flex-col items-center">
+            <div className="min-w-40 border border-line bg-background px-3 py-2 text-center">
+              <p className="whitespace-nowrap font-mono text-[10px] uppercase tracking-[0.18em] text-muted">
+                Go to
+              </p>
+              <p className="mt-1 font-display text-base font-medium tracking-tight text-foreground whitespace-nowrap">
+                {layer.label}
+              </p>
+            </div>
+            <div className="-mt-1 size-2 rotate-45 border-r border-b border-line bg-background" />
+          </div>
+        </Html>
+      ) : null}
     </group>
   );
 }

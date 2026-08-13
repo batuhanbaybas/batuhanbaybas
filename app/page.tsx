@@ -11,8 +11,8 @@ export default function Home() {
       <Hero />
       <About />
       <Tools />
-      <Work />
       <OpenSource />
+      <Work />
       <SiteFooter />
     </>
   );

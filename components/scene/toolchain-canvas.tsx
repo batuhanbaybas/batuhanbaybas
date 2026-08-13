@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { Component, useMemo, useState, type ReactNode } from "react";
+import { Component, useEffect, useState, type ReactNode } from "react";
 import { site } from "@/lib/site";
 
 const Toolchain = dynamic(() => import("./toolchain"), {
@@ -41,36 +41,45 @@ function scrollToSection(id: string) {
   });
 }
 
+function useDesktopScene() {
+  const [enabled, setEnabled] = useState(false);
+
+  useEffect(() => {
+    const media = window.matchMedia("(min-width: 1024px)");
+    const onChange = () => setEnabled(media.matches);
+    onChange();
+    media.addEventListener("change", onChange);
+    return () => media.removeEventListener("change", onChange);
+  }, []);
+
+  return enabled;
+}
+
 export function ToolchainCanvas() {
+  const showScene = useDesktopScene();
   const [active, setActive] = useState<string | null>(null);
-  const section = useMemo(
-    () => site.sections.find((item) => item.id === active),
-    [active],
-  );
+
+  if (!showScene) {
+    return null;
+  }
 
   return (
-    <div className="relative size-full">
-      <div className="hero-glow pointer-events-none absolute inset-0" />
-      <div aria-hidden className="absolute inset-0">
-        <SceneBoundary>
-          <Toolchain
-            active={active}
-            onActiveChange={setActive}
-            onInspect={scrollToSection}
-          />
-        </SceneBoundary>
-      </div>
-      <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between pt-1">
-        <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-muted">
-          {section ? `Go to · ${section.label}` : "The site, in layers"}
-        </p>
-        <p className="max-w-[12rem] text-right font-mono text-[11px] leading-4 tracking-[0.04em] text-muted">
-          {section?.hint ?? "Hover a layer, then click to move."}
-        </p>
+    <div className="relative flex h-full flex-col">
+      <div className="relative min-h-[420px] flex-1">
+        <div className="hero-glow pointer-events-none absolute inset-0" />
+        <div aria-hidden className="absolute inset-0">
+          <SceneBoundary>
+            <Toolchain
+              active={active}
+              onActiveChange={setActive}
+              onInspect={scrollToSection}
+            />
+          </SceneBoundary>
+        </div>
       </div>
       <nav
         aria-label="Page sections"
-        className="absolute inset-x-0 bottom-0 z-10 grid grid-cols-2 gap-x-6 gap-y-3 pb-1 md:grid-cols-4"
+        className="grid grid-cols-4 gap-x-4 gap-y-3 pt-4 pb-2"
       >
         {site.sections.map((item, index) => {
           const isActive = active === item.id;

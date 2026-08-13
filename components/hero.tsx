@@ -5,12 +5,12 @@ import { site } from "@/lib/site";
 export function Hero() {
   return (
     <section className="relative">
-      <Container className="grid min-h-[calc(100dvh-57px)] md:grid-cols-2 md:gap-10">
-        <div className="order-2 flex max-w-xl flex-col justify-center pb-16 pt-4 md:order-1 md:pb-0 md:pt-0">
+      <Container className="grid lg:min-h-[calc(100dvh-57px)] lg:grid-cols-2 lg:gap-10">
+        <div className="flex max-w-xl flex-col justify-center py-10 lg:py-0">
           <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
             {site.role}
           </p>
-          <h1 className="mt-5 font-display text-[clamp(2.4rem,6.4vw,5.4rem)] leading-[0.92] font-medium tracking-[-0.04em]">
+          <h1 className="mt-5 font-display text-[clamp(2.2rem,8vw,5.4rem)] leading-[0.92] font-medium tracking-[-0.04em]">
             <span className="block">{site.headline[0]}</span>
             <span className="block">{site.headline[1]}</span>
             <span className="block">{site.headline[2]}</span>
@@ -18,12 +18,12 @@ export function Hero() {
           <p className="mt-6 max-w-md text-base leading-7 text-muted md:text-lg md:leading-8">
             {site.lede}
           </p>
-          <div className="mt-10 flex flex-wrap items-center gap-8">
+          <div className="mt-8 flex flex-wrap items-center gap-8 lg:mt-10">
             <a
               href="#work"
               className="border-b border-foreground pb-1 text-sm tracking-wide transition-colors hover:border-muted hover:text-muted"
             >
-              View work
+              View projects
             </a>
             <a
               href={`mailto:${site.links.email}`}
@@ -34,7 +34,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative order-1 h-[360px] md:order-2 md:h-auto md:min-h-[calc(100dvh-57px)]">
+        <div className="relative hidden lg:flex lg:min-h-[calc(100dvh-57px)] lg:flex-col lg:justify-center lg:pb-10">
           <ToolchainCanvas />
         </div>
       </Container>
