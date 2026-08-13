@@ -23,7 +23,7 @@ export type SiteSection = {
 export const site = {
   name: "Batuhan Baybaş",
   shortName: "BB",
-  role: "Developer Experience",
+  role: "Software Engineer",
   headline: ["I build tools", "that remove", "friction."],
   lede: "Headless libraries and platforms that shorten the path from idea to production.",
   about: [
@@ -37,7 +37,7 @@ export const site = {
   ],
   location: "Türkiye",
   metadata: {
-    title: "Batuhan Baybaş — Developer Experience",
+    title: "Batuhan Baybaş — Software Engineer",
     description:
       "Batuhan Baybaş builds developer tools, headless libraries, and platforms that remove friction from shipping software.",
   },
