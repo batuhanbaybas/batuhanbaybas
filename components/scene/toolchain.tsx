@@ -6,6 +6,24 @@ import { useEffect, useRef, useState, type RefObject } from "react";
 import * as THREE from "three";
 import { site, type SiteSection } from "@/lib/site";
 
+const CLOCK_WARNING = "Clock: This module has been deprecated";
+
+{
+  const three = THREE as typeof THREE & {
+    setConsoleFunction?: (
+      fn: (type: "log" | "warn" | "error", message: string, ...params: unknown[]) => void,
+    ) => void;
+  };
+
+  three.setConsoleFunction?.((type, message, ...params) => {
+    if (type === "warn" && message.includes(CLOCK_WARNING)) {
+      return;
+    }
+
+    console[type](message, ...params);
+  });
+}
+
 const PLATE_H = 0.11;
 const GAP = 0.26;
 
@@ -137,25 +155,33 @@ function System({
 }) {
   const root = useRef<THREE.Group>(null);
   const pointer = useRef({ x: 0, y: 0 });
+  const timer = useRef(new THREE.Timer());
   const reducedMotion = usePrefersReducedMotion();
   const stackHeight = layers.length * PLATE_H + (layers.length - 1) * GAP;
 
   useEffect(() => {
+    const instance = timer.current;
+    instance.connect(document);
+
     const onMove = (event: PointerEvent) => {
       pointer.current.x = (event.clientX / window.innerWidth) * 2 - 1;
       pointer.current.y = (event.clientY / window.innerHeight) * 2 - 1;
     };
 
     window.addEventListener("pointermove", onMove);
-    return () => window.removeEventListener("pointermove", onMove);
+    return () => {
+      window.removeEventListener("pointermove", onMove);
+      instance.dispose();
+    };
   }, []);
 
-  useFrame((state) => {
+  useFrame(() => {
     if (!root.current || reducedMotion.current) {
       return;
     }
 
-    const time = state.clock.elapsedTime;
+    timer.current.update();
+    const time = timer.current.getElapsed();
     root.current.rotation.y =
       0.22 + Math.sin(time * 0.2) * 0.04 + pointer.current.x * 0.08;
     root.current.rotation.x = 0.12 + pointer.current.y * 0.04;
