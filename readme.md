@@ -1,20 +1,24 @@
-# Hello 👋, I'm Batuhan Baybas
+# Batuhan Baybas
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7C3AED&center=true&vCenter=true&width=500&lines=Frontend+Developer;React+Next.js+TypeScript;Building+clean+scalable+products" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Frontend+Developer;React+Next.js+TypeScript;Building+clean+scalable+products" alt="Typing SVG" />
 </p>
 
-I build clean, scalable, user-focused web experiences with React, Next.js, and TypeScript.
+<p align="center">
+  <a href="https://linkedin.com/in/batuhanbabas" target="_blank">LinkedIn</a>
+  ·
+  <a href="https://x.com/batubaybas" target="_blank">X</a>
+  ·
+  <a href="https://medium.com/@b.baybas" target="_blank">Medium</a>
+</p>
+
+I build clean, high-performance web products with React, Next.js, and TypeScript.
 
 ### About
 
-Frontend engineer with 3+ years of experience creating modern web applications and improving user experience through thoughtful UI and performance-focused development. I enjoy building products that are practical, maintainable, and easy to use.
+Frontend engineer with 3+ years of experience designing and shipping user-focused interfaces, improving performance, and writing maintainable code. I enjoy turning product ideas into polished experiences and continuously learning new tools and architecture patterns.
 
 Currently expanding into backend development with Node.js, NestJS, PostgreSQL, Prisma, Redis, and real-time systems.
-
-### Contact
-
-[LinkedIn](https://linkedin.com/in/batuhanbabas) • [X](https://x.com/batubaybas) • [Medium](https://medium.com/@b.baybas)
 
 ### Stack
 
@@ -30,13 +34,6 @@ Currently expanding into backend development with Node.js, NestJS, PostgreSQL, P
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" width="32" height="32" />
 </p>
 
-### GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=batuhanbaybas&show_icons=true&hide_title=true&hide_border=true&theme=tokyonight" height="170" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=batuhanbaybas&layout=compact&hide_title=true&hide_border=true&theme=tokyonight" height="170" alt="Top languages" />
-</p>
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=batuhanbaybas&radius=16&theme=react&area=true&order=5" height="260" alt="Activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=batuhanbaybas&theme=react&bg_color=0d1117&color=8B5CF6&line=8B5CF6&point=FFFFFF&hide_border=true&area=true" height="260" alt="Activity graph" />
 </p>
