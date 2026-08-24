@@ -20,16 +20,16 @@ export function Hero() {
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-8 lg:mt-10">
             <a
-              href="#work"
+              href={site.cta.primary.href}
               className="border-b border-foreground pb-1 text-sm tracking-wide transition-colors hover:border-muted hover:text-muted"
             >
-              View projects
+              {site.cta.primary.label}
             </a>
             <a
-              href={`mailto:${site.links.email}`}
+              href={site.cta.secondary.href}
               className="border-b border-line pb-1 text-sm tracking-wide text-muted transition-colors hover:border-foreground hover:text-foreground"
             >
-              Contact
+              {site.cta.secondary.label}
             </a>
           </div>
         </div>

@@ -10,7 +10,7 @@ export function OpenSource() {
       id="open-source"
     >
       <Container>
-        <SectionHeading index="02" label="Public" title="Open source" />
+        <SectionHeading label="Public" title="Open source" />
         <ul className="mt-16 grid gap-px bg-line md:grid-cols-2">
           {site.openSource.map((item) => (
             <li className="bg-background p-8 md:p-10" key={item.name}>

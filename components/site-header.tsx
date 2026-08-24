@@ -17,7 +17,6 @@ const desktopNav: NavItem[] = [
     href: `#${section.id}`,
     label: section.label,
   })),
-  { href: `mailto:${site.links.email}`, label: "Contact" },
   { href: site.links.github, label: "GitHub", external: true },
 ];
 

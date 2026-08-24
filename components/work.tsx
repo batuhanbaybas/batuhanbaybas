@@ -7,7 +7,7 @@ export function Work() {
   return (
     <section className="scroll-mt-24 border-t border-line py-24 md:py-32" id="work">
       <Container>
-        <SectionHeading index="03" label="Selected" title="Projects" />
+        <SectionHeading index="02" label="Selected" title="Work" />
         <ul className="mt-16 divide-y divide-line border-y border-line">
           {site.projects.map((project) => (
             <li

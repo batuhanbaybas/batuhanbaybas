@@ -27,14 +27,16 @@ const CLOCK_WARNING = "Clock: This module has been deprecated";
 const PLATE_H = 0.11;
 const GAP = 0.26;
 
+const DEFAULT_FINISH = { color: "#4a4a4a", metalness: 0.26, roughness: 0.32 };
+
 const FINISH: Record<
   string,
   { color: string; metalness: number; roughness: number }
 > = {
   about: { color: "#f2f2f2", metalness: 0.18, roughness: 0.36 },
-  tools: { color: "#a8a8a8", metalness: 0.22, roughness: 0.34 },
-  "open-source": { color: "#737373", metalness: 0.24, roughness: 0.34 },
-  work: { color: "#4a4a4a", metalness: 0.26, roughness: 0.32 },
+  services: { color: "#a8a8a8", metalness: 0.22, roughness: 0.34 },
+  work: { color: "#737373", metalness: 0.24, roughness: 0.34 },
+  contact: { color: "#4a4a4a", metalness: 0.26, roughness: 0.32 },
 };
 
 const layers = [...site.sections].reverse();
@@ -72,7 +74,7 @@ function Plate({
 }) {
   const group = useRef<THREE.Group>(null);
   const [hovered, setHovered] = useState(false);
-  const finish = FINISH[layer.id];
+  const finish = FINISH[layer.id] ?? DEFAULT_FINISH;
   const isActive = active === layer.id;
   const baseY = index * (PLATE_H + GAP);
   const width = 1.05 - index * 0.05;

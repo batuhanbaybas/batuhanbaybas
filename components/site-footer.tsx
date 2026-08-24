@@ -10,7 +10,7 @@ export function SiteFooter() {
         </p>
         <div className="flex gap-6 font-mono text-[11px] uppercase tracking-[0.16em] text-muted">
           <a
-            href={`mailto:${site.links.email}`}
+            href={site.links.mailHref}
             className="transition-colors hover:text-foreground"
           >
             Email

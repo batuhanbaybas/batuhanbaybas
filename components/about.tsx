@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 
 export function About() {
   return (
-    <section className="border-t border-line py-20 md:py-28" id="about">
+    <section className="scroll-mt-24 border-t border-line py-20 md:py-28" id="about">
       <Container>
         <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
           Profile

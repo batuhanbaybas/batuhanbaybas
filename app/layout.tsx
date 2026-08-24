@@ -19,9 +19,34 @@ const syne = Syne({
   variable: "--font-syne",
 });
 
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: site.name,
+  jobTitle: "Independent Software Engineer",
+  email: site.links.email,
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "TR",
+  },
+  sameAs: [site.links.github, site.links.linkedin],
+  description: site.metadata.description,
+};
+
 export const metadata: Metadata = {
   title: site.metadata.title,
   description: site.metadata.description,
+  openGraph: {
+    title: site.metadata.title,
+    description: site.metadata.description,
+    type: "website",
+    locale: "en",
+  },
+  twitter: {
+    card: "summary",
+    title: site.metadata.title,
+    description: site.metadata.description,
+  },
 };
 
 export const viewport: Viewport = {
@@ -36,6 +61,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-background font-sans text-foreground">
+        <script
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+          type="application/ld+json"
+        />
         <SiteHeader />
         {children}
       </body>
