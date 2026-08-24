@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Batuhan Baybas
 
-## Getting Started
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Frontend+Developer;React+Next.js+TypeScript;Building+clean+scalable+products" alt="Typing SVG" />
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="https://linkedin.com/in/batuhanbabas" target="_blank">LinkedIn</a>
+  ·
+  <a href="https://x.com/batubaybas" target="_blank">X</a>
+  ·
+  <a href="https://medium.com/@b.baybas" target="_blank">Medium</a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I build clean, high-performance web products with React, Next.js, and TypeScript.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Frontend engineer with 3+ years of experience designing and shipping user-focused interfaces, improving performance, and writing maintainable code. I enjoy turning product ideas into polished experiences and continuously learning new tools and architecture patterns.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Currently expanding into backend development with Node.js, NestJS, PostgreSQL, Prisma, Redis, and real-time systems.
 
-## Learn More
+### Stack
 
-To learn more about Next.js, take a look at the following resources:
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="32" height="32" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" width="32" height="32" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="32" height="32" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="32" height="32" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="32" height="32" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" alt="NestJS" width="32" height="32" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="32" height="32" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" alt="Prisma" width="32" height="32" />
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=batuhanbaybas&theme=react&bg_color=0d1117&color=8B5CF6&line=8B5CF6&point=FFFFFF&hide_border=true&area=true" height="260" alt="Activity graph" />
+</p>
