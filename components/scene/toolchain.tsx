@@ -27,16 +27,16 @@ const CLOCK_WARNING = "Clock: This module has been deprecated";
 const PLATE_H = 0.11;
 const GAP = 0.26;
 
-const DEFAULT_FINISH = { color: "#4a4a4a", metalness: 0.26, roughness: 0.32 };
+const DEFAULT_FINISH = { color: "#3f3a35", metalness: 0.26, roughness: 0.32 };
 
 const FINISH: Record<
   string,
   { color: string; metalness: number; roughness: number }
 > = {
-  about: { color: "#f2f2f2", metalness: 0.18, roughness: 0.36 },
-  services: { color: "#a8a8a8", metalness: 0.22, roughness: 0.34 },
-  work: { color: "#737373", metalness: 0.24, roughness: 0.34 },
-  contact: { color: "#4a4a4a", metalness: 0.26, roughness: 0.32 },
+  about: { color: "#e7e0d4", metalness: 0.18, roughness: 0.36 },
+  services: { color: "#c4b5a0", metalness: 0.22, roughness: 0.34 },
+  work: { color: "#8b8276", metalness: 0.24, roughness: 0.34 },
+  contact: { color: "#3f3a35", metalness: 0.26, roughness: 0.32 },
 };
 
 const layers = [...site.sections].reverse();
@@ -197,7 +197,7 @@ function System({
     >
       <mesh position={[0, stackHeight / 2, 0]}>
         <cylinderGeometry args={[0.024, 0.024, stackHeight + 0.32, 12]} />
-        <meshStandardMaterial color="#2a2a2a" metalness={0.2} roughness={0.35} />
+        <meshStandardMaterial color="#2a2622" metalness={0.2} roughness={0.35} />
       </mesh>
       {layers.map((layer, index) => (
         <Plate
@@ -238,8 +238,8 @@ export default function Toolchain({
       onPointerMissed={() => onActiveChange(null)}
     >
       <ambientLight intensity={0.58} />
-      <directionalLight color="#f2f2f2" intensity={1.55} position={[3, 6, 4]} />
-      <directionalLight color="#8a8a8a" intensity={0.34} position={[-3, 1, -2]} />
+      <directionalLight color="#eee6d8" intensity={1.55} position={[3, 6, 4]} />
+      <directionalLight color="#8a8074" intensity={0.34} position={[-3, 1, -2]} />
       <System
         active={active}
         onActiveChange={onActiveChange}

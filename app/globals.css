@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #050505;
-  --foreground: #f2f2f2;
-  --muted: #737373;
-  --accent: #f2f2f2;
-  --line: rgba(242, 242, 242, 0.1);
+  --background: #141210;
+  --foreground: #e7e0d4;
+  --muted: #8b8276;
+  --accent: #c4b5a0;
+  --line: rgb(231 224 212 / 0.12);
 }
 
 @theme inline {
@@ -39,7 +39,7 @@ body {
 .hero-glow {
   background: radial-gradient(
     ellipse at 50% 52%,
-    rgb(242 242 242 / 0.06) 0%,
+    rgb(231 224 212 / 0.06) 0%,
     transparent 58%
   );
 }

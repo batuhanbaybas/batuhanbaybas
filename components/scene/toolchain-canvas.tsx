@@ -24,7 +24,7 @@ class SceneBoundary extends Component<
       return (
         <div
           aria-hidden
-          className="size-full bg-[radial-gradient(ellipse_at_center,#1a1a1a_0%,#050505_62%)]"
+          className="size-full bg-[radial-gradient(ellipse_at_center,#2a2622_0%,#141210_62%)]"
         />
       );
     }
