@@ -16,7 +16,7 @@ I build clean, high-performance web products with React, Next.js, and TypeScript
 
 ### About
 
-Frontend engineer with 3+ years of experience designing and shipping user-focused interfaces, improving performance, and writing maintainable code. I enjoy turning product ideas into polished experiences and continuously learning new tools and architecture patterns.
+Frontend engineer with 4+ years of experience designing and shipping user-focused interfaces, improving performance, and writing maintainable code. I enjoy turning product ideas into polished experiences and continuously learning new tools and architecture patterns.
 
 Currently expanding into backend development with Node.js, NestJS, PostgreSQL, Prisma, Redis, and real-time systems.
 
