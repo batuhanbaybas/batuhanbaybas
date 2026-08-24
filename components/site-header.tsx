@@ -46,7 +46,6 @@ export function SiteHeader() {
           className="inline-flex min-w-0 items-center gap-2.5 text-foreground"
           onClick={() => setOpen(false)}
         >
-          <Mark className="size-7 shrink-0" />
           <span className="font-display text-sm font-medium tracking-tight">
             {site.name}
           </span>
