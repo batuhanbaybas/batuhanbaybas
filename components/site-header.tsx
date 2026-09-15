@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Container } from "@/components/container";
-import { Mark } from "@/components/mark";
 import { site } from "@/lib/site";
 
 type NavItem = {
@@ -13,7 +12,7 @@ type NavItem = {
 };
 
 const desktopNav: NavItem[] = [
-  ...site.sections.map((section) => ({
+  ...site.sections.filter((section) => section.id !== "contact").map((section) => ({
     href: `#${section.id}`,
     label: section.label,
   })),
@@ -54,7 +53,7 @@ export function SiteHeader() {
         <nav className="hidden items-center gap-6 font-mono text-[11px] uppercase tracking-[0.18em] text-muted lg:flex">
           {desktopNav.map((item) => (
             <a
-              className="transition-colors hover:text-foreground"
+              className="transition-colors hover:text-accent"
               href={item.href}
               key={item.href}
               rel={item.external ? "noreferrer" : undefined}
@@ -63,6 +62,12 @@ export function SiteHeader() {
               {item.label}
             </a>
           ))}
+          <a
+            className="rounded-full border border-accent px-4 py-2 text-accent transition-colors hover:bg-accent hover:text-background"
+            href={site.links.mailHref}
+          >
+            Hire me
+          </a>
         </nav>
 
         <button
@@ -94,6 +99,13 @@ export function SiteHeader() {
                 {item.label}
               </a>
             ))}
+            <a
+              className="mt-2 rounded-full border border-accent px-3 py-3 text-accent transition-colors hover:bg-accent hover:text-background"
+              href={site.links.mailHref}
+              onClick={() => setOpen(false)}
+            >
+              Hire me
+            </a>
           </Container>
         </nav>
       ) : null}

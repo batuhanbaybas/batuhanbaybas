@@ -42,7 +42,7 @@ export function WorkLinks({ item }: { item: WorkItem }) {
           href={link.href}
           rel="noreferrer"
           target="_blank"
-          className="inline-flex items-center gap-1.5 transition-colors hover:text-foreground"
+          className="inline-flex items-center gap-1.5 transition-colors hover:text-accent"
         >
           {link.label} <Arrow />
         </a>
@@ -55,7 +55,9 @@ export function Stack({ stack }: { stack: readonly string[] }) {
   return (
     <ul className="flex flex-wrap gap-x-3 gap-y-1 font-mono text-[11px] uppercase tracking-[0.14em] text-muted">
       {stack.map((item) => (
-        <li key={item}>{item}</li>
+        <li key={item} className="px-3">
+          {item}
+        </li>
       ))}
     </ul>
   );

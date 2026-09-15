@@ -1,13 +1,16 @@
 import { Container } from "@/components/container";
-import { ToolchainCanvas } from "@/components/scene/toolchain-canvas";
+import { HeroVisual } from "@/components/hero-visual";
 import { site } from "@/lib/site";
 
 export function Hero() {
   return (
     <section className="relative">
       <Container className="grid lg:min-h-[calc(100dvh-57px)] lg:grid-cols-2 lg:gap-10">
-        <div className="flex max-w-xl flex-col justify-center py-10 lg:py-0">
+        <div className="flex max-w-xl flex-col justify-center pt-10 pb-20 lg:py-0">
           <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
+            <span aria-hidden className="text-accent">
+              ${" "}
+            </span>
             {site.role}
           </p>
           <h1 className="mt-5 font-display text-[clamp(2.2rem,8vw,5.4rem)] leading-[0.92] font-medium tracking-[-0.04em]">
@@ -21,7 +24,7 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap items-center gap-8 lg:mt-10">
             <a
               href={site.cta.primary.href}
-              className="border-b border-foreground pb-1 text-sm tracking-wide transition-colors hover:border-muted hover:text-muted"
+              className="border-b border-foreground pb-1 text-sm tracking-wide transition-colors hover:border-accent hover:text-accent"
             >
               {site.cta.primary.label}
             </a>
@@ -35,9 +38,27 @@ export function Hero() {
         </div>
 
         <div className="relative hidden lg:flex lg:min-h-[calc(100dvh-57px)] lg:flex-col lg:justify-center lg:pb-10">
-          <ToolchainCanvas />
+          <HeroVisual />
         </div>
       </Container>
+
+      <a
+        aria-label="Scroll down"
+        className="absolute inset-x-0 bottom-6 flex justify-center lg:bottom-10"
+        href="#about"
+      >
+        <span className="scroll-cue flex size-9 items-center justify-center rounded-full border border-line text-muted transition-colors hover:border-accent hover:text-accent">
+          <svg aria-hidden className="size-4" fill="none" viewBox="0 0 16 16">
+            <path
+              d="M3 6l5 5 5-5"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="1.4"
+            />
+          </svg>
+        </span>
+      </a>
     </section>
   );
 }

@@ -1,6 +1,6 @@
 export type WorkItem = {
   name: string;
-  year: string;
+  year?: string;
   kind: string;
   description: string;
   stack: readonly string[];
@@ -20,6 +20,11 @@ export type Service = {
   description: string;
 };
 
+export type StackCategory = {
+  title: string;
+  items: readonly string[];
+};
+
 export type ContactChannel = {
   label: string;
   value: string;
@@ -36,11 +41,6 @@ export const site = {
   about: [
     "Four years in React and TypeScript — shipping both the enterprise systems behind the company and the products people actually open.",
     "I work the layer other engineers feel: frontend architecture, reusable component systems, performance, and the last mile to production. That work is independent — with teams who need it shipped, not just specified.",
-  ],
-  aboutSignals: [
-    { value: "04", label: "Years shipping production frontend" },
-    { value: "React · TS", label: "The stack I think in" },
-    { value: "Systems", label: "Architecture, components, performance" },
   ],
   location: "Türkiye",
   metadata: {
@@ -80,6 +80,20 @@ export const site = {
       hint: "Start a project",
     },
   ] satisfies SiteSection[],
+  stack: [
+    {
+      title: "Frontend",
+      items: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    },
+    {
+      title: "Backend",
+      items: ["Node.js", "NestJS", "Express", "PostgreSQL"],
+    },
+    {
+      title: "Mobile",
+      items: ["React Native"],
+    },
+  ] satisfies StackCategory[],
   services: [
     {
       title: "Product frontend",
@@ -101,10 +115,33 @@ export const site = {
     heading: "Have a product, a frontend that needs structure, or a tool that should exist?",
     note: "Email is the fastest way in.",
   },
+  work: [
+    {
+      name: "Savunma Gelişim",
+      kind: "Platform",
+      description:
+        "A training platform where Türkiye's Savunma Sanayii Başkanlığı (Presidency of Defense Industries) publishes education content to defense-industry professionals nationwide.",
+      stack: ["Next.js", "TypeScript", "Ant Design", "styled-components", "Redux Toolkit"],
+      href: "https://savunmagelisim.com",
+    },
+    {
+      name: "Tematik Ansiklopediler",
+      kind: "Internal tool",
+      description:
+        "An internal tool for Türkiye İslam Ansiklopedisi's Tematik Ansiklopediler (Thematic Encyclopedias) project, managing the workflow between commissioned authors and the institution's editorial staff — content assignments, submissions, and review.",
+      stack: ["React", "Ant Design", "Redux Toolkit", "Less", "JavaScript"],
+    },
+    {
+      name: "Kamu İhale Kurumu Akademi",
+      kind: "Internal tool",
+      description:
+        "An internal training portal for Türkiye's Public Procurement Authority (Kamu İhale Kurumu) — Next.js for the portal, with a TanStack Start and TanStack Query admin panel for managing courses and content.",
+      stack: ["Next.js", "TypeScript", "TanStack Start", "TanStack Query", "shadcn/ui"],
+    },
+  ] satisfies WorkItem[],
   projects: [
     {
       name: "Setuverse",
-      year: "2026",
       kind: "Product",
       description:
         "A social platform for developers and creators to share, discover, and rate workspace setups. Auth, moderation, equipment tagging, and an admin surface — designed, built, and shipped end to end.",
