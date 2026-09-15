@@ -15,7 +15,7 @@ export function Toolkit() {
       />
       <Container>
         <SectionHeading label="Toolkit" title="Stack" />
-        <ul className="mt-16 grid gap-2 rounded-2xl bg-background md:grid-cols-3">
+        <ul className="mt-16 grid gap-3 rounded-2xl bg-background md:grid-cols-3">
           {site.stack.map((category) => (
             <li
               className="rounded-xl border border-line bg-background py-8 md:px-8 md:last:pr-0 md:py-10"

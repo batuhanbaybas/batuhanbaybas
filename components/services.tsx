@@ -14,7 +14,7 @@ export function Services() {
       />
       <Container>
         <SectionHeading label="Offer" title="Services" />
-        <ul className="mt-16 grid gap-2 rounded-2xl bg-background md:grid-cols-3">
+        <ul className="mt-16 grid gap-3 rounded-2xl bg-background md:grid-cols-3">
           {site.services.map((service) => (
             <li className="rounded-xl border border-line bg-background py-10 md:px-8 md:last:pr-0 md:py-12" key={service.title}>
               <h3 className="font-display text-2xl font-medium tracking-tight">

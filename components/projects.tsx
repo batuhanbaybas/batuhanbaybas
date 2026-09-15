@@ -15,7 +15,7 @@ export function Projects() {
       />
       <Container>
         <SectionHeading label="Personal" title="Projects" />
-        <ul className="mt-16 divide-y divide-line border-y border-line">
+        <ul className="mt-16 divide-y divide-line border-t border-line">
           {site.projects.map((project) => (
             <li
               className="grid gap-6 py-10 md:grid-cols-[8rem_1fr_11rem] md:items-start md:gap-10 md:py-12"
