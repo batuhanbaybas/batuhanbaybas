@@ -1,38 +1,54 @@
-# Batuhan Baybas
+# Hey, I'm Batuhan 👋
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Frontend+Developer;React+Next.js+TypeScript;Building+clean+scalable+products" alt="Typing SVG" />
-</p>
+I'm a software engineer who likes building things from scratch.
 
-<p align="center">
-  <a href="https://linkedin.com/in/batuhanbabas" target="_blank">LinkedIn</a>
-  ·
-  <a href="https://x.com/batubaybas" target="_blank">X</a>
-  ·
-  <a href="https://medium.com/@b.baybas" target="_blank">Medium</a>
-</p>
+I spend most of my time working with **TypeScript**, **React**, and
+**Node.js** — from polished interfaces to APIs, databases, and everything
+in between.
 
-I build clean, high-performance web products with React, Next.js, and TypeScript.
+Currently exploring more of the backend world and building small products,
+open-source tools, and occasionally things that probably didn't need to exist.
 
-### About
+---
 
-Frontend engineer with 4+ years of experience designing and shipping user-focused interfaces, improving performance, and writing maintainable code. I enjoy turning product ideas into polished experiences and continuously learning new tools and architecture patterns.
+### 🛠 What I use
 
-Currently expanding into backend development with Node.js, NestJS, PostgreSQL, Prisma, Redis, and real-time systems.
+**Languages**
 
-### Stack
+TypeScript · JavaScript · SQL
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="32" height="32" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" width="32" height="32" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="32" height="32" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="32" height="32" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="32" height="32" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" alt="NestJS" width="32" height="32" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="32" height="32" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" alt="Prisma" width="32" height="32" />
-</p>
+**Frontend**
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=batuhanbaybas&theme=react&bg_color=0d1117&color=8B5CF6&line=8B5CF6&point=FFFFFF&hide_border=true&area=true" height="260" alt="Activity graph" />
-</p>
+React · Next.js · TanStack · Tailwind CSS
+
+**Backend**
+
+Node.js · Express · Prisma · PostgreSQL
+
+**Other**
+
+Docker · Cloudflare · Git · GitHub Actions
+
+---
+
+### 🚀 Things I've built
+
+**[Setuverse](https://setuverse.space)**  
+A place to discover and share desk setups, workspaces, and battlestations.
+
+**[React Upload Kit](https://react-upload-kit.com)**  
+A headless, TypeScript-first file upload toolkit for React.
+
+---
+
+### 🌱 Currently
+
+Building products, contributing to open source,
+and going deeper into **backend & full-stack development**.
+
+---
+
+### 📫 Find me
+
+[LinkedIn](https://linkedin.com/in/batuhan-baybas) ·
+[Website](https://batuhanbayas.info)
