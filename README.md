@@ -51,4 +51,4 @@ and going deeper into **backend & full-stack development**.
 ### 📫 Find me
 
 [LinkedIn](https://linkedin.com/in/batuhan-baybas) ·
-[Website](https://batuhanbayas.info)
+[Website](https://batuhanbaybas.info)
